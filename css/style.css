@@ -27,8 +27,9 @@
     justify-content: space-between;
 
 }
-.debug .col{
-    border: 2px dotted black;
+.debug [class^="col"]{
+    padding: 5px 15px;
+    border: 2px solid black;   
 }
 
 .debug .container{
@@ -42,7 +43,9 @@
 .debug .hero > * {
     min-height: 500px;
  }
-
+.debug main [class^="col"]{
+    min-height: 500px;   
+}
 
 
 /* CLASSI */
@@ -54,3 +57,27 @@
     margin: 0 auto;
     max-width: 700px;
 }
+.col-60{
+    flex-basis: 60%;
+}
+.col-40{
+    flex-basis: 40%;
+}
+
+.row_reverse{
+    flex-direction: row-reverse;
+}
+.bg-grey{
+    background-color: lightgray;
+}
+
+.debug .row > nav{
+    flex-grow: 1;
+    text-align: center;
+
+}
+.col-100{
+    flex-basis: 100%;
+    background-color:green ;
+}
+
