@@ -35,11 +35,22 @@
     border: 2px dotted black;
     padding: 30px;
 }
-
+.debug .hero{
+    background-color: blue;
+    padding: 50px 0;
+}
+.debug .hero > * {
+    min-height: 500px;
+ }
 
 
 
 /* CLASSI */
 .main-header .row{
     align-items: center;
+}
+.container-small{
+    border: 2px dotted black;
+    margin: 0 auto;
+    max-width: 700px;
 }
