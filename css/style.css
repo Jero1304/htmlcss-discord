@@ -1,0 +1,45 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.logo{
+    height: 80px;
+}
+
+/* DEBUG */
+.debug .main-header{
+    background-color: rgb(42, 110, 255);
+    padding: 20px 0;
+}
+.debug .row{
+    border: 2px dotted black;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+.debug .col{
+    border: 2px dotted black;
+}
+
+.debug .container{
+    border: 2px dotted black;
+    padding: 30px;
+}
+
+
+
+
+/* CLASSI */
+.main-header .row{
+    align-items: center;
+}
